@@ -1,164 +1,202 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8" />
+    <head>
+
+        <!-- fonts -->
+
+        <!-- Montserrat Alternates -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+        <!-- Roboto font -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+
+        <!--roboto condensed -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+
+        <!-- icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+        
+<!-- css link -->
+        <link rel="stylesheet" type="text/css" href="LandingPageStyle.css">
+        
+        <!--description  -->
+        <meta charset="utf-8" />
+        
+        <META name="description" content="Hive is a free task management tool aimed at simplifying the task management process for university students. It is handy in trying to make the most out of campus life while being productive."/>
+        <META name="keyword" content="task management, to-do list, note-taking, calendar, university students, time management "/>
+        
+        <title>
+            Hive: Where Tasks Flourish and Time Takes Flight!
+        </title>
+        
+
+    </head>
     
-    <META name="description" content="Hive is a free task management tool aimed at simplifying the task management process for university students. It is handy in trying to make the most out of campus life while being productive."/>
-    <META name="keyword" content="task management, to-do list, note-taking, calendar, university students, time management "/>
     
-    <title>
-        Hive: Where Tasks Flourish and Time Takes Flight!
-    </title>
-    <link rel="icon" href="images/logo_icon.ico" type="image/x-icon">
+    <body>
+        <header>
+            <div class="logo"><img src="assets/images/logo.jpg" alt="Logo"  width = "50" height = "50"></div>
+            <nav>
+                <ul>
+                    <li><a href = "#features" target = "_self">Features</a></li>
+                    <li>
+                        <!-- <button class="mode-toggle">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm4 8h-8v-2h8v2z"/>
+                            </svg>
+                            Light Mode
+                          </button> -->
+                        <!-- Light mode toggle  -->
+                        <button class="mode-toggle">
+                          <i class="fas fa-sun"></i>
+                          Light Mode
+                        </button>
+                        
+                        <!-- Dark mode toggle
+                        <button class="mode-toggle">
+                          <i class="fas fa-moon"></i>
+                          Dark Mode
+                        </button> -->
+                    </li>
+                    <li><a href = "#about" target = "_self">About us</a></li> 
+                    <li><a href = "login.html" target = "_self">SignUp</a> </li>
+                </ul>
+            </nav>
+            </div> 
+        </header>
+    
 
-</head>
+        <!-- Headline -->
 
 
-<body>
-    <table>
-        <tr>
-            <td width="3%">
-                <img src="images/logo_no_bg.png" alt="logo" width="120px" height="90px">
-            </td>
-            <td width="20%"><a href="#features" target="_self">Features</a></td>
-            <td width="20%"><button>Light Mode</button></td>
-            <td width="20%"><a href="#about" target="_self">About us</a></td>
-            <td width="20%"><a href="../signin_page/signin.html" target="_blank">SignUp</a></td>
-        </tr>
-    </table>
+        <div class="content">
+        <h1 class="headline">
+            Stay on Top of Your Assignments and Deadlines<br>
+            with Hive - The perfect Companion for <br>
+            Busy Students
+        </h1>        
+                <button class="get-started-btn">Get Started</button>
+        </div>
+        
+        
+        <!-- feature explore -->
+
+        <div class="container">
+
+            <div class="parent card2">
+                <div class="card">
+                    <div class="content-box">
+                    <h2 class="card-title" id="to-do">To-Do List</h2>
+                    <p class="card-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Doloremque quaerat qui obcaecati autem error, eligendi <br>
+                        </p>
+                    <span class="try-now"><a href = "login.html" target = "_self">Try Now</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="parent card3">
+                <div class="card">
+                    <div class="content-box">
+                        <h2 class="card-title" id="calendar">Calendar</h2>
+                        <p class="card-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                            Doloremque quaerat qui obcaecati autem error, eligendi <br>
+                            </p>
+                    <span class="try-now"><a href = "login.html" target = "_self">Try Now</a></span>
+                    </div>
+                </div>
+            </div>
+    
+
+            <div class="parent card3">
+                <div class="card">
+                    <div class="content-box">
+                        <h2 class="card-title" id="notes">Notes</h2>
+                        <p class="card-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                            Doloremque quaerat qui obcaecati autem error, eligendi <br>
+                        </p>
+                        <span class="try-now"><a href = "login.html" target = "_self">Try Now</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="container">
+
+        <div class="parent card3">
+            <div class="card">
+                <div class="content-box">
+                    <h2 class="card-title" id="calendar">Reminders</h2>
+                    <p class="card-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Doloremque quaerat qui obcaecati autem error, eligendi <br>
+                        </p>
+                <span class="try-now"><a href = "login.html" target = "_self">Try Now</a></span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="parent card3">
+            <div class="card">
+                <div class="content-box">
+                    <h2 class="card-title" id="calendar">Habit Tracker</h2>
+                    <p class="card-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Doloremque quaerat qui obcaecati autem error, eligendi <br>
+                        </p>
+                <span class="try-now"><a href = "login.html" target = "_self">Try Now</a></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="parent card3">
+            <div class="card">
+                <div class="content-box">
+                    <h2 class="card-title" id="calendar">Tips</h2>
+                    <p class="card-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Doloremque quaerat qui obcaecati autem error, eligendi <br>
+                        </p>
+                <span class="try-now"><a href = "login.html" target = "_self">Try Now</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <hr>
-    <table>
-        <tr>
-            <td width="20%">
-               <a href="#to-do" target="_self">TO-DO List</a>
-            </td>
-            <td width="20%"><a href="#calendar" target="_self"> Calendar</a></td>
-            <td width="20%"><a href="#notes" target="_self"> Notes </a></td>
-            <td width="20%"><a href="#reminders" target="_self"> Reminders </a></td>
-            <td width="20%"><a href="#habit-tracker" target="_self"> Habit Tracker </a></td>
-            <td width="20%"><a href="#tips" target="_self"> Tips </a></td>
-        </tr>
-    </table>
-    <hr>
-    <!-- Headline -->
-    <section align="center">
-        <p><h1>Stay on Top of Your Assignments and Deadlines<br>
-             with Hive - The perfect Companion for <br>
-             Busy Students</h1></p>
-    </section>
-    <br>
-    <section align="center">
-        <img src="images/alarm.jpg" alt="Hive.com" width="60%" height="500">
-    </section>
-    <br>
-    <section align="center">
-        <a href="../signin_page/signin.html" target="_blank"><h4>Get Started</h4> </a>
-    </section>
-    <br>
-    <hr>
-    <!-- feature explore -->
-    <section>
-        <article align="center">
-            <h2 id="to-do">To-Do List</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Doloremque quaerat qui obcaecati autem error, eligendi <br>
-                quis quod delectus ipsa nisi alias eos vero magnam ut, <br>
-                aut explicabo fuga harum. Consequatur! <br>
-             </p>
-            <img src="images/boared.jpg" alt="Hive.com" width="60%" height="500">
-            <a href="../signin_page/signin.html" target="_blank"><h4>Try Now</h4> </a>
-        </article>
-        <hr>
-        <article align="center">
-            <h2 id="calendar">Calendar</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Doloremque quaerat qui obcaecati autem error, eligendi <br>
-                quis quod delectus ipsa nisi alias eos vero magnam ut, <br>
-                aut explicabo fuga harum. Consequatur! <br>
-            </p>
-            <img src="images/schedule.gif" alt="Hive.com" width="60%" height="500">
-            <a href="../signin_page/signin.html" target="_blank"><h4>Try Now</h4> </a>
-        </article>
-        <hr>
-        <article align="center">
-            <h2 id="notes">Notes</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Doloremque quaerat qui obcaecati autem error, eligendi <br>
-                quis quod delectus ipsa nisi alias eos vero magnam ut, <br>
-                aut explicabo fuga harum. Consequatur! <br>
-            </p>
-            <img src="images/notes.gif" alt="Hive.com" width="60%" height="500">
-            <a href="../signin_page/signin.html" target="_blank"><h4>Try Now</h4> </a>
-        </article>
-        <hr>
-        <article align="center">
-            <h2 id="reminders">Reminders</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Doloremque quaerat qui obcaecati autem error, eligendi <br>
-                quis quod delectus ipsa nisi alias eos vero magnam ut, <br>
-                aut explicabo fuga harum. Consequatur! <br>
-            </p>
-            <img src="images/woman.jpg" alt="Hive.com" width="60%" height="500">
-            <a href="../signin_page/signin.html" target="_blank"><h4>Try Now</h4> </a>
-        </article>
-        <hr>
-        <article align="center">
-            <h2 id="habit-tracker">Habit tracker</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Doloremque quaerat qui obcaecati autem error, eligendi <br>
-                quis quod delectus ipsa nisi alias eos vero magnam ut, <br>
-                aut explicabo fuga harum. Consequatur! <br>
-            </p>
-            <img src="images/time-tracking.gif" alt="Hive.com" width="60%" height="500">
-            <a href="../signin_page/signin.html" target="_blank"><h4>Try Now</h4> </a>
-        </article>
-        <hr>
-        <article align="center">
-            <h2 id="tips">Tips</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Doloremque quaerat qui obcaecati autem error, eligendi <br>
-                quis quod delectus ipsa nisi alias eos vero magnam ut, <br>
-                aut explicabo fuga harum. Consequatur! <br>
-            </p>
-            <img src="images/deadline.jpg" alt="Hive.com" width="60%" height="500">
-            <a href="../signin_page/signin.html" target="_blank"><h4>Try Now</h4> </a>
-        </article>
-        <hr>
+        <!-- articles -->
+    <footer class="footer" id="footer">
+        <ul>
+                <li>Features</li><br>
+                <li><a href="#to-do" target="_self">TO-DO List</a></li><br>
+                <li><a href="#calendar" target="_self"> Calendar</a></li><br>
+                <li><a href="#notes" target="_self"> Notes </a></li><br>
+                <li><a href="#reminders" target="_self"> Reminders </a></li><br>
+                <li><a href="#habit-tracker" target="_self"> Habit Tracker </a></li><br>
+                <li><a href="#tips" target="_self"> Tips </a></li>
 
-    </section>
-
-    <!-- articles -->
-    <div id="footer">
-        <table>
-            <tr>
-                <th align="left"><h5 id="features">Features</h5></th>
-                <th width="20%"><h5 id="about">About us</h5></th>
-            </tr>
-
-            <tr width="20%" align="left">
-                <td>
-                    <dl>
-                        <dd><a href="#to-do" target="_self">TO-DO List</a></dd>
-                        <dd><a href="#calendar" target="_self"> Calendar</a></dd>
-                        <dd><a href="#notes" target="_self"> Notes </a></dd>
-                        <dd><a href="#reminders" target="_self"> Reminders </a></dd>
-                        <dd><a href="#habit-tracker" target="_self"> Habit Tracker </a></dd>
-                        <dd><a href="#tips" target="_self"> Tips </a></dd>
-                    </dl>
-                </td>
-                <td width="20%">
-                    <strong> Hive.com </strong><br>
+            </ul>
+        </div>
+            
+        <div class="about">About us<br><br>
+                        
+                <strong> Hive.com </strong><br>
                     1337 West 8th St #309 <br>
                     New York, NY 10018 <br>
                     Phone: (123) 456-7890 <br>
                     Email: hivemail@gmail.com <br>
                     &copy; 2021 Hive. All rights reserved.<br>
-                </td>
-            </tr>
-        </table>
-    </div>
+        </div>
+                        
+    </footer>
 
-</body>
+    </body>
+
 
 </html>

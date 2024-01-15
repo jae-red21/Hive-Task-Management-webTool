@@ -1,0 +1,216 @@
+
+body {
+  background-color: #ffd700; /* Honey yellow */
+  background-image: url("bee-pattern.png"); /* Bee pattern image */
+  background-repeat: repeat; /* Repeat the pattern */
+  background-position: center center; /* Center the pattern */
+  background-size: cover; /* Scale the pattern to cover the entire page */
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #7f4f2e;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #8B4513;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height: 80px;
+    padding-top: 15px;
+
+}
+
+.logo{
+    margin-right: 20px;
+    
+}
+
+.logo img{
+    height: 100%;
+    width: auto;
+    vertical-align: middle;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;    
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffd700;
+    padding: 0 25px;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #b87333;
+}
+
+  .mode-toggle {
+    background-color: #8B4513;
+    border:none;
+    padding: 0;
+    color:#ffd700 ;
+    text-align: center;
+    cursor:pointer ;
+ }
+  .content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .headline {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2f190e;
+    margin-top: 100px;
+  }
+  
+  .get-started-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:#7f4f2e ;
+    color:#ffd700 ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  
+  .get-started-btn:hover {
+    background-color:#2f190e ;
+  }
+
+ .container {
+   padding: 50px 0px;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+ 
+ .parent {
+   height: 400px;
+   width: 300px;
+   padding: 20px;
+   perspective: 1000px;
+ }
+ 
+ .card {
+   padding-top: 100px;
+   transform-style: preserve-3d;
+   background-image: url("assets/images/CardBackground.jpg");
+   background-position: center center;
+   width: 100%;
+   transition: all 0.5s ease-in-out;
+   border-radius: 10px;
+ }
+ .card:hover {
+   background-position: 80% 20%;
+   transform: rotate3d(0.5, 1, 0, 30deg);
+ }
+ 
+ .content-box {
+   height: 100%;
+   width: auto;
+   background-color: #4c2b1a;
+   border-radius: 0px 0px 10px 10px;
+   box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+   transition: all 0.5s ease-in-out;
+   padding: 50px 25px 25px 25px;
+   transform-style: preserve-3d;
+ }
+ .content-box .card-title {
+   color: #b87333;
+   font-size: 25px;
+   font-weight: 900;
+   transition: all 0.5s ease-in-out;
+   transform: translate3d(0px, 0px, 20px);
+   background-color: transparent;
+ }
+ .content-box .card-title:hover {
+   transform: translate3d(0px, 0px, 50px);
+   background-color: transparent;
+ }
+ .content-box .card-content {
+   padding-top: 15px;
+   font-size: 12px;
+   color: #b87333;
+   transition: all 0.5s ease-in-out;
+   transform: translate3d(0px, 0px, 20px);
+   background-color: transparent;
+ }
+ .content-box .card-content:hover {
+   transform: translate3d(0px, 0px, 50px);
+   background-color: transparent;
+ }
+ .content-box .try-now {
+   display: block;
+   font-weight: 900;
+   font-size: 11px;
+   text-transform: uppercase;
+   color: #0088ff;
+   padding-top: 15px;
+   transition: all 0.5s ease-in-out;
+   transform: translate3d(0px, 0px, 20px);
+   background-color: transparent;
+
+}
+ .content-box .see-more:hover {
+   transform: translate3d(0px, 0px, 50px);
+   background-color: transparent;
+ }
+ 
+ 
+ .card2 {
+   filter: hue-rotate(150deg);
+ }
+ 
+ .card3 {
+   filter: hue-rotate(300deg);
+ }
+ 
+ .card4 {
+   filter: hue-rotate(90deg);
+ }
+
+ footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #7f4f2e;
+  padding: 0 25px;
+ }
+ footer ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;    
+}
+
+footer a {
+  text-decoration: none;
+  color: #080808;
+  padding: 0 25px;
+}
+
+footer a:hover{
+  border-bottom: 2px solid #4b1f01;
+}
+
+
