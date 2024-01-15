@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logo_icon.ico" type="image/x-icon">
+    <title>Hive Registration Page</title>
+  </head>
+  <body>
+    <table width="100%" border="5">
+      <tr>
+        <td>
+          <img
+            src="images/photo_2023-12-20_20-24-00.jpg"
+            alt="Hive_logo"
+            height="100%"
+            width="100%"
+          />
+          <p>
+            Developed by students to help fellow ones keep track of their
+            invaluable asset - TIME!
+          </p>
+        </td>
+        <td>
+          <div>
+            <p>Answer 6 more questions and you're all setup.</p>
+            <form action="#">
+              <div>
+                <label for="birth-date">Birth Date </label><br />
+                <input type="date" id="birth-date" name="birthDate" required />
+              </div>
+              <div>
+                <p>Gender:</p>
+                <input type="radio" id="gender1" name="gender" />
+                <label for="gender1">Male</label>
+                <input type="radio" id="gender2" name="gender" />
+                <label for="gender2">Female</label>
+                <input type="radio" id="gender3" name="gender" />
+                <label for="gender3">Other</label>
+              </div>
+              <br />
+              <div>
+                <label for="phone"> Phone</label><br />
+                <input type="tel" id="phone" placeholder="Phone number" />
+              </div>
+              <div>
+                <label for="email">Email</label><br />
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="example@gmail.com"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                  required
+                />
+              </div>
+              &nbsp;
+
+              <div>
+                <a href="signup.html"><input type="button" value="Back"></a>
+                <a href="signup3.html"><input type="button" value="Next"></a>
+              </div>
+              <p align="right">2 of 3</p>
+            </form>
+            <br />
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logo_icon.ico" type="image/x-icon">
+    <title>Hive Registration Page</title>
+  </head>
+  <body>
+    <table width="100%" border="5">
+      <tr>
+        <td>
+          <img
+            src="images/photo_2023-12-20_20-24-00.jpg"
+            alt="Hive_logo"
+            height="100%"
+            width="100%"
+          />
+          <p>
+            Developed by students to help fellow ones keep track of their
+            invaluable asset - TIME!
+          </p>
+        </td>
+        <td>
+          <div>
+            <h1>Sign Up</h1>
+            <form action="#">
+              <div>
+                <label for="firstName">First name </label><br />
+                <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  placeholder="First name"
+                  required
+                />
+              </div>
+              <div>
+                <label for="last-name"> Last name</label><br />
+                <input
+                  type="text"
+                  id="last-name"
+                  placeholder="Last name"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="password">Password</label><br />
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Password"
+                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                  required
+                />
+                <br />
+                <label for="confirmation">Confirm</label><br />
+                <input
+                  type="password"
+                  id="confirmation"
+                  placeholder="Confirm password"
+                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                  required
+                />
+                <br />
+                <small
+                  >Must contain at least one number, one uppercase letter, one
+                  lowercase letter, and be at least 8 characters long.</small
+                >
+              </div>
+              &nbsp;
+              <div>
+                <a href="signup2.html"><input type="button" value="Next"></a>
+              </div>
+              <p align="right">1 of 3</p>
+            </form>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
