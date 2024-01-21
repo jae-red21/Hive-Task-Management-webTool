@@ -1,6 +1,6 @@
 
 body {
-  background-color: #ffd700; /* Honey yellow */
+  background-color: #ffff; 
   background-image: url("bee-pattern.png"); /* Bee pattern image */
   background-repeat: repeat; /* Repeat the pattern */
   background-position: center center; /* Center the pattern */
@@ -21,7 +21,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #8B4513;
+    background-color: white;
     z-index: 100;
     display: flex;
     justify-content: space-between;
@@ -51,22 +51,25 @@ nav ul{
 
 nav a {
     text-decoration: none;
-    color: #ffd700;
+    color: #b65c2f;
     padding: 0 25px;
 }
 
 nav a:hover{
-    border-bottom: 2px solid #b87333;
+    border-bottom: 3px solid #e3f546;
+    border-top: 3px solid #e3f546;
+
 }
 
   .mode-toggle {
-    background-color: #8B4513;
+    background-color: white;
     border:none;
     padding: 0;
-    color:#ffd700 ;
+    color:#b65c2f ;
     text-align: center;
     cursor:pointer ;
  }
+ 
   .content {
     text-align: center;
     margin-top: 50px;
@@ -76,15 +79,15 @@ nav a:hover{
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #2f190e;
+    color: #b65c2f;
     margin-top: 100px;
   }
   
   .get-started-btn {
     padding: 10px 20px;
     font-size: 18px;
-    background-color:#7f4f2e ;
-    color:#ffd700 ;
+    background-color:#b65c2f ;
+    color: white ;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -129,15 +132,15 @@ nav a:hover{
  .content-box {
    height: 100%;
    width: auto;
-   background-color: #4c2b1a;
+   background-color: rgb(112, 84, 52);
    border-radius: 0px 0px 10px 10px;
-   box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+   box-shadow: rgba(85, 44, 11, 0.925) 0px 20px 50px -25px;
    transition: all 0.5s ease-in-out;
    padding: 50px 25px 25px 25px;
    transform-style: preserve-3d;
  }
- .content-box .card-title {
-   color: #b87333;
+ .content-box .card-title { 
+   color: #ffd700;
    font-size: 25px;
    font-weight: 900;
    transition: all 0.5s ease-in-out;
@@ -151,7 +154,7 @@ nav a:hover{
  .content-box .card-content {
    padding-top: 15px;
    font-size: 12px;
-   color: #b87333;
+   color: #ffd700;
    transition: all 0.5s ease-in-out;
    transform: translate3d(0px, 0px, 20px);
    background-color: transparent;
@@ -165,14 +168,14 @@ nav a:hover{
    font-weight: 900;
    font-size: 11px;
    text-transform: uppercase;
-   color: #0088ff;
+   color: #ffd700;
    padding-top: 15px;
    transition: all 0.5s ease-in-out;
    transform: translate3d(0px, 0px, 20px);
    background-color: transparent;
 
 }
- .content-box .see-more:hover {
+ .content-box .try-now:hover {
    transform: translate3d(0px, 0px, 50px);
    background-color: transparent;
  }
@@ -194,7 +197,7 @@ nav a:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #7f4f2e;
+  background-color: white;
   padding: 0 25px;
  }
  footer ul{
@@ -210,7 +213,7 @@ footer a {
 }
 
 footer a:hover{
-  border-bottom: 2px solid #4b1f01;
+  border-bottom: 3px solid #e3f546;
 }
 
 
