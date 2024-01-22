@@ -1,3 +1,8 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     height: 100%;
     font-family: Arial, sans-serif;
@@ -8,7 +13,6 @@ h1, h2, h3, p {
     color: #da9f09;
     text-align: center;
 }
-
 
 h2 {
     font-family: cursive;
@@ -80,43 +84,19 @@ nav a:hover {
  .hamburger-icon{
     display: none;
  }
+ .hamburger-icon{
+    display: none;
+ }
 @media only screen and (min-width: 600px){
     .hamburger-icon {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 24px;
-        cursor: pointer;
-    }
-}
-
-
-@media only screen and (max-width: 600px) {
-    .side {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .side a {
-        padding: 10px;
-    }
-
-    .hamburger-icon {
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 24px;
-        cursor: pointer;
-    }
-
-   
-    .side {
         display: none;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 50px;
+        cursor: pointer;
     }
 }
-
 
 .inside_side{
     display: flex;
@@ -146,6 +126,66 @@ table,th,td{
 th,td{
     padding: 10px;
 }
+@media only screen and (max-width: 600px) {
+    .status_table {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .features {
+        background-color: #f8f0e2;
+    }
+
+    .table {
+        border: none;
+    }
+    nav {
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .header_features {
+        width: 100%;
+    }
+
+    .side {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .todo,
+    .calander,
+    .notes,
+    .reminder {
+        padding: 20px;
+    }
+}
+    
+
 
 .btn{
     padding: 5px;

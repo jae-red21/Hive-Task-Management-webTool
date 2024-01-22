@@ -15,7 +15,7 @@
             <ul>
                 <li><a href=""></a><i class="fa-regular fa-bell"></i></li>
                 <li><a href=""></a>?</li>
-                <li> <a href="#manage" >about</a></li>
+                <li> <a href=" " >about</a></li>
                 <li><a href="">Home</a></li>
                 <li><a href="">Add</a></li>
                 <li>  <a href="">Profile <i class="fa-solid fa-user"></i></a></li>
@@ -23,10 +23,13 @@
             </ul>
         </nav>
         </div>
-        <!-- header -->
+        
 <div class="container">
+    <!-- sidebar -->
     <div class="side">
-        <div class="hamburger-icon">&#9776;</div>
+        <div class="hamburger-icon">&#9776;
+            <p>jhg</p>
+        </div>
             <a href=""><i class="fa-solid fa-house" > Home</i></a>
             <a href=""><i class="fa-solid fa-bars"> My work </i></a>
             <a href=""> Manage workspace </a>
@@ -36,25 +39,15 @@
             <hr>
             <p>Main work space</p>
         <div class="inside_side">
-        
-            <form action="">
-                <input type="text" name="country" list="lists" placeholder=". . . " style="width: 50%; text-decoration: double;">
-                <datalist id="lists">
-                <option value="Rename workspace">
-                    <option value="Manage workspace">
-                    <option value="Add new workspace">
-                    <option value="View archive/trash">
-                    <option value="Delete">
-                    
-                </datalist>
-            </form>
-            <form action="#" method="get">
+    
+            <form action="#" method="get" name="for_search">
                 <input type="search..." name="search" placeholder="Search">
             
             </form>
         </div>
         
     </div>
+    <!-- main content -->
     <div class="header_features">
         <div class="status">
             <div class="hamburger-icon">&#9776;</div>
@@ -66,15 +59,15 @@
                         <th>Assignment</th>
                         <th>Project</th>
                         <th>Deadline</th>
-                        <th>Status</th>
+                        <th class="status_table">Status</th>
                     </tr>
                     <tr >
                         <td >IP</td>
                         <td>yes</td>
                         <td>yes</td>
                         <td>jan 20</td>
-                        <td>
-                            <form action="" class="form">
+                        <td class="status_table">
+                            <form action="" class="form" name="for_status">
                                 <input type="text"  list="status" placeholder=". . . " >
                                 <datalist id="status">
                                 <option value="in progress">
@@ -90,8 +83,8 @@
                         <td></td>
                         <td>yes</td>
                         <td>feb 5</td>
-                        <td>
-                        <form action="" class="form">
+                        <td class="status_table">
+                        <form action="" class="form" name="for_status">
                             <input type="text"  list="status" placeholder=". . . " >
                             <datalist id="status">
                             <option value="in progress">
@@ -107,8 +100,8 @@
                         <td>yes</td>
                         <td></td>
                         <td>jan 20</td>
-                        <td>
-                        <form action="" class="form">
+                        <td class="status_table">
+                        <form action="" class="form" name="for_status">
                             <input type="text"  list="status" placeholder=". . . " >
                             <datalist id="status">
                             <option value="in progress">
@@ -124,8 +117,8 @@
                         <td></td>
                         <td>yes</td>
                         <td>jan 17</td>
-                        <td>
-                        <form action="" class="form">
+                        <td class="status_table">
+                        <form action="" class="form" name="for_status">
                             <input type="text"  list="status" placeholder=". . . " >
                             <datalist id="status">
                             <option value="in progress">
@@ -141,8 +134,8 @@
                         <td>yes</td>
                         <td></td>
                         <td>feb 11</td>
-                        <td>
-                        <form action="" class="form1">
+                        <td class="status_table">
+                        <form action="" class="form" name="for_status">
                             <input type="text"  list="status" placeholder=". . . " >
                             <datalist id="status">
                             <option value="in progress">
@@ -160,13 +153,14 @@
 
 
         </div>
-
+            <!-- Features -->
         <div class="features">
             <div class="todo_calendar">
+                <!-- todo list -->
                 <div class="todo">
                 
                     <h2><a href="" >Todo Lists <i class="fa-solid fa-table-list"></i></a></h2>  
-                        <form action="" method="get">
+                        <form action="" method="get" name="for_todo">
                             <input type="checkbox" name="sport">
                             <label for="sport">sport</label><br><br>
                             <input type="checkbox" name="piano">
@@ -235,6 +229,7 @@
                 </div>
             </div>
             <div class="notes_reminder">
+                <!-- notes -->
                 <div class="notes">
         
                     <h2><a href="">Notes <i class="fa-solid fa-clipboard"></i></a></h2>
@@ -303,6 +298,6 @@
             </div>
             @2024
      </div>
-       
+       <script src="script.js"></script>
     </body>
     </html>
