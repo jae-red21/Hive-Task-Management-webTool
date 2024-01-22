@@ -1,109 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/logo_icon.ico" type="image/x-icon">
-    <title>Hive</title>
+  <title>Reminder</title>
+  <link rel="stylesheet" type="text/css" href="style/style_reminder.css">
 </head>
+
 <body>
-    <table width="100%">
-      <tr>
-        <td>
-            <img src="images/logo_no_bg.png" alt="logo" width="150px" height="120px">
-        </td>
-        <td align="right">
-            <table>
-                <tr>
-                    <td>
-                        <h1>User Name</h1> 
-                    </td>
-                    <td>
-                        <img src="images/profile_pic.jpeg" alt="profile" width="125px" height="100px">
-                    </td>
-            </table> 
-        </td>
-      </tr> 
-      <tr>
-        <td colspan="5"><hr></td>
-      </tr>
-      <tr align="center" >
-        <tr align="center" valign="top">
-            <td>
-                <nav>
-                    <h2>
-                        <a href="../main_page/main.html">HOME</a>
-                    </h2>   
-                    <h2>
-                        <a href="todo.html">To-do</a>
-                    </h2>   
-                    <h2>
-                        <a href="calendar.html">Calander</a>
-                    </h2>
-                    <h2>
-                        <a href="note.html">Take Note</a>
-                    </h2>
-                    <h2>
-                        <a href="reminder.html">Reminder</a>
-                    </h2>
-                </nav>  
-            </td>
-        <td>
-            <h1>Reminder</h1>
+<div  class="R"> <h1>Reminder</h1>
 
-            <form id= "order form" action=" " method="get">
-              <fieldset>
-           <table>
-              <tr>
-                  <td><label for = "Reminder"> remind </lable>
-                      <input type ="text" id=" Reminder1" name="reminder1"  placeholder="study"> <br></td>
-                  <td> <label for=" time"> Time :</lable>
-                      <input type ="number" id="time1" name="time" max="24" min="0"> <br><br></td>
-                  <td>  <lable for = "order date"> Date:</lable>
-                      <input type ="date" id=" date1" name="date" value="2023-12-23">  <br><br></td>
-              </tr>
-              <tr>
-                  <td><label for = "Reminder"> remind</lable>
-                      <input type ="text" id=" Reminder1" name="reminder1" placeholder="study" > <br></td>
-                  <td> <label for=" time"> Time :</lable>
-                      <input type ="number" id="time1" placeholder= "8:00" max="24" min="0"> <br><br></td>
-                  <td>  <lable for = "order date"> Date:</lable>
-                      <input type ="date" id=" date1" name="date" placeholder="2023-12-23">  <br><br></td>
-              </tr>
-              <tr>
-                  <td><label for = "Reminder"> remind</lable>
-                      <input type ="text" id=" Reminder1" name="reminder1"  placeholder="study"> <br></td>
-                  <td> <label for=" time"> Time :</lable>
-                      <input type ="number" id="time1" placeholder= "8:00" max="24" min="0"> <br><br></td>
-                  <td>  <lable for = "order date"> Date:</lable>
-                      <input type ="date" id=" date1" name="date" placeholder="2023-12-23">  <br><br></td>
-              </tr>
-              <tr>
-                  <td><label for = "Reminder"> remind</lable>
-                      <input type ="text" id=" Reminder1" name="reminder1"  placeholder="study"> <br></td>
-                  <td> <label for=" time"> Time :</lable>
-                      <input type ="number" id="time1" placeholder= "8:00" max="24" min="0"> <br><br></td>
-                  <td>  <lable for = "order date"> Date:</lable>
-                      <input type ="date" id=" date1" name="date" placeholder="2023-12-23">  <br><br></td>
-              </tr>
-              <tr>  
-                  
-                   <td ><label for="Reminder">remind:</lable>
-                      <input type = "text" >
-                     </td>
-                      <td ><label for="Reminder"> Time:</lable> 
-                          <input type ="number" id="time"  max="24" min="0">
-                         </label></td>
-                          <td ><label for="Reminder"> Date:</lable>
-                              <input type ="date" id=" date1" > 
-                              <input type="submit" value="Add"></label></td>
-              </tr>
-           </table>    
-              </fieldset>
-          </form>         
+    <form id= "order form" action=" " method="get">
+      <fieldset>
+     
+    <div  class="r1"> 
+        <label for = "Reminder"> Remind: </lable>
+        <input type ="text" id=" Reminder1" name="reminder1" placeholder="study" >
+        <label for=" time"> Time:</lable>
+        <input type ="number" id="time1" placeholder= "8:00" max="24" min="0"> 
+        <lable for = "order date"> Date: </lable>
+        <input type ="date" id=" date1" name="date" placeholder="2023-12-23">  </div>
+     
+    <div  class="r1"> 
+        <label for = "Reminder"> Remind: </lable>
+        <input type ="text" id=" Reminder1" name="reminder1"  placeholder="study"> 
+        <label for=" time"> Time :</lable>
+        <input type ="number" id="time1" placeholder= "8:00" max="24" min="0"> 
+        <lable for = "order date"> Date:</lable>
+        <input type ="date" id=" date1" name="date" placeholder="2023-12-23"> </div>
+        
+    <div  class="r1"> 
+        <label for = "Reminder"> Remind :</lable>
+        <input type ="text" id=" Reminder1" name="reminder1"  placeholder="study"> 
+        <label for=" time"> Time :</lable>
+        <input type ="number" id="time1" placeholder= "8:00" max="24" min="0"> 
+        <lable for = "order date"> Date:</lable>
+        <input type ="date" id=" date1" name="date" placeholder="2023-12-23">  </div>
+    <div  class="r1">
+        <label for="Reminder"> Remind :</lable>
+        <input type = "text" >
+        <label for="Reminder"> Time:</lable> 
+        <input type ="number" id="time"  max="24" min="0"></label>
+        <label for="Reminder"> Date:</lable>
+        <input type ="date" id=" date1" > 
+        <input type="submit" value="Add"></label>
+</div>
+      </fieldset>
+  </form></div>
+  <script src="index.js"></script>
 
-        </td>
-      </tr> 
-    </table>
 </body>
+
 </html>
